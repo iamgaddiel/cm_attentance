@@ -1,6 +1,6 @@
 
 
-export function generateRandomCode() {
+function generateRandomCode() {
     const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     const prefix = 'CM'
     let code = '';
